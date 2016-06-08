@@ -1,0 +1,16 @@
+package com.willowtree;
+
+option java_package = "com.willowtree.notahitlist";
+option java_outer_classname = "TargetProto";
+
+
+message Target {
+  required string id = 1;
+
+  required string name = 2;
+
+}
+
+message Targets {
+  repeated Target targets = 1;
+}
